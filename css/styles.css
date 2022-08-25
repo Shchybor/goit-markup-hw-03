@@ -32,6 +32,53 @@ a {
 	text-decoration: none;
 }
 
+.header {
+	display: flex;
+}
+
+.container {
+	display: flex;
+	width: 1600px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: brown;
+}
+
+.nav {
+display: flex;
+
+}
+
+.logo {
+	display: inline;
+	margin-top: 24px;
+	margin-left: 215px;
+	margin-right: 93px;
+	margin-bottom: 25px;
+}
+
+.menu-nav {
+	display: flex;
+    gap: 50px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	margin-right: 344px;
+}
+
+.list-contact {
+	display: flex;
+	gap: 50px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	margin: right 215px;
+	background-color: chartreuse;
+}
+
+
+
+
               /* Шапка */
 
 .logo {
@@ -97,17 +144,29 @@ a {
 		color: var(--primary-text-color)
 }
 
-.authorizetion-nav {
+.list-contact {
 }
 
                    /* Hero */
-.main {
-	background: var(--primary-bg-color)
-}
+.section {
+padding-top: 94px;
+padding-bottom: 94px;
+} 
 
-.hero {
+.hero-container {
 	background: var(--bg-hero-footer)
 }
+
+.hero-container {
+	width: 1600px;
+	padding-top: 200px;
+	padding-right: 452px;
+	padding-bottom: 30px;
+	padding-left: 452px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 .hero-title {
 		    font-family: 'Roboto';
@@ -121,13 +180,13 @@ a {
 			color: var(--primary-white-color)
 }
 
-.hero-title {
-	padding-top: 200px;
-}
-
 .hero-button {
 	background-color: var(--accent-color);
 	color: var(--primary-white-color)
+}
+
+.hero-button {
+	margin-bottom: 200px;
 }
 
 .hero-button {
@@ -143,9 +202,6 @@ a {
 }
 
               /*features  */
-.features {
-
-}
 
 .features-title {
 	display: none;
