@@ -260,6 +260,7 @@ a {
                   /* team */
 .section-team {
 	padding-bottom: 94px;
+	padding-top: 50px;
 	background: var(--bg-buttom-team)
 }
 
@@ -402,13 +403,10 @@ a {
 
 .button:hover,
 .button:focus {
-	background: var(--accent-color)
+	background: var(--accent-color);
+	color: var(--primary-white-color);
 }
 
-.button:hover,
-.button:focus {
-	color: var(--primary-white-color)
-}
 
 .button {
 	font-family: inherit;
