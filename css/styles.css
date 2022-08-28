@@ -391,8 +391,24 @@ font-family: 'Roboto';
            /* portfolio */
 
 .portfolio {
-	background: var(--primary-bg-color)
+	background: var(--primary-bg-color);
+	display: flex;
+	
 }
+
+.portfolio-button {
+	display: flex;
+	justify-content: center;
+	background-color: var(--primary-bg-color)
+}
+
+.portfolio-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+
 
  .portfolio-title {
 	display: none;
