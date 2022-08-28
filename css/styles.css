@@ -263,7 +263,6 @@ font-family: 'Roboto';
 
 .team-list {
 	display: flex;
-	justify-content: flex-end;
 	margin-top: 0;
 	margin-bottom: 0;
 	justify-content: center;
@@ -295,12 +294,15 @@ font-family: 'Roboto';
 }
 
 .team-subtitle {
+	
 	    font-weight: 500;
 		font-size: 16px;
 		line-height: 1.18;
 		text-align: center;
 		letter-spacing: 0.03em;
 		color: var(--titel-text-color);
+		padding-top: 30px;
+		padding-bottom: 10px;
 }
 
 .team-text {
@@ -309,6 +311,7 @@ font-family: 'Roboto';
 		text-align: center;
 		letter-spacing: 0.03em;
 		color: var(--primary-text-color);
+		padding-bottom: 30px;
 }
 
                       /*footer  */
@@ -331,10 +334,10 @@ font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 700;
 		font-size: 26px;
-		line-height: 1.19;
+		line-height: 1.1923;
 		letter-spacing: 0.03em;
 	    color: var(--primary-white-color);
-		padding-top: 60px;
+		padding-top: 58px;
 }
 
 .footer-logo:hover,
@@ -352,13 +355,15 @@ font-family: 'Roboto';
 }
 
  .footer-link {
+	    display: inline-block;
 	    font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 400;
 		font-size: 14px;
-		line-height: 1.71;
+		line-height: 1.7114;
 		letter-spacing: 0.03em;
-	    color: var(--primary-white-color)
+	    color: var(--primary-white-color);
+		padding-bottom: 9px;
 }
  
 .footer-link:hover,
@@ -367,13 +372,31 @@ font-family: 'Roboto';
 }
 
 .foot-link {
+	    display: inline-block;
 	    font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 400;
 		font-size: 14px;
-		line-height: 1.71;
+		line-height: 1.7114;
 		letter-spacing: 0.03em;
-	    color: var(--link-color-foot)
+	    color: var(--link-color-foot);
+		padding-bottom: 9px;
+}
+
+.tel-link {
+	display: inline-block;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7114;
+	letter-spacing: 0.03em;
+	color: var(--link-color-foot);
+}
+
+.tel-link:hover,
+.tel-link:focus {
+	color: var(--accent-color)
 }
 
 .foot-link:hover,
@@ -382,8 +405,8 @@ font-family: 'Roboto';
 }
 
 .address {
-	margin-top: 20px;
-	padding-bottom: 60px;
+	padding-top: 20px;
+	padding-bottom: 58px;
 }
 
 
@@ -391,21 +414,38 @@ font-family: 'Roboto';
            /* portfolio */
 
 .portfolio {
-	background: var(--primary-bg-color);
 	display: flex;
+	justify-content: center
 	
 }
 
 .portfolio-button {
 	display: flex;
 	justify-content: center;
-	background-color: var(--primary-bg-color)
+	margin-bottom: 50px;
+}
+
+.portfolio-button .item {
+	margin-left: 8px;
 }
 
 .portfolio-list {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 30px;
+	justify-content: space-between;	
+	row-gap: 30px;
+}
+
+.portfolio-list .item {
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+}
+
+.item-description {
+	padding-top: 20px;
+	padding-right: 24px;
+	padding-bottom: 20px;
+	padding-left: 24px;
 }
 
 
@@ -420,26 +460,24 @@ font-family: 'Roboto';
 	color: var(--primary-white-color);
 }
 
-
 .button {
-	font-family: inherit;
-	border: none
-}
-
-.button {
-	font-family: 'Roboto';
+	display: inline-block;
+	border: none;
+	padding-top: 6px;
+	padding-right: 22px;
+	padding-bottom: 6px;
+	padding-left: 22px;
+	border-radius: 4px;
+    background: var(--bg-buttom-team);
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--titel-text-color)
-}
-
-.button {
-	border-radius: 4px;
-	background: var(--bg-buttom-team)
+	font-family: inherit;
+	color: var(--titel-text-color);
+	
 }
 
 .portfolio-list {
